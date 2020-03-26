@@ -3,7 +3,7 @@
 [Environment Setup](https://github.com/C4Q/AC-Android/tree/master/lessons/env-and-tools)
 
 ## Lessons
-0. [Intro to Java](https://github.com/floreo-labs/tree/master/lessons/intro-to-java)
+0. [Intro to Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/intro-to-java)
 1. [Control Structures in Java](https://github.com/C4Q/AC3.3/tree/master/lessons/control-structures)
 2. [While Loops in Java](https://github.com/C4Q/AC3.3/tree/master/lessons/enums-while)
 3. [For Loops and Methods](https://github.com/C4Q/AC3.3/tree/master/lessons/for-loops)
