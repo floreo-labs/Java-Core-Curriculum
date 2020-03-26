@@ -103,7 +103,7 @@ public class Hello {
 
 Go to [repl.it](https://repl.it/languages/java) and try it out!
 
-#### Exercise: [Printing to the Console](https://github.com/C4Q/AC3.3/blob/master/lessons/intro-to-java/exercises.md#java-output)
+#### Exercise: [Printing to the Console](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/intro-to-java/exercises.md)
 
 
 ### Variables & data types
