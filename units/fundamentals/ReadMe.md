@@ -1,6 +1,6 @@
 ## <b><u>Fundamentals</u></b>
 
-[Environment Setup](https://github.com/C4Q/AC-Android/tree/master/lessons/env-and-tools)
+[Environment Setup](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/env-and-tools)
 
 ## Lessons
 0. [Intro to Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/intro-to-java)
