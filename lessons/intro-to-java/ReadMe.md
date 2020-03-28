@@ -315,4 +315,4 @@ Let's complete some more exercises to experiment with Strings and printing:
 
 ## Next Steps
 
-Please visit the Android Calendar on Canvas, and select **Midday Check-in: Intro to Java** to complete the daily check-in!
+Please .....

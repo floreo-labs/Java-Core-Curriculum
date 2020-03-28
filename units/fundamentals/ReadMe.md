@@ -2,6 +2,8 @@
 
 [Environment Setup](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/env-and-tools)
 
+
+
 ## Lessons
 0. [Intro to Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/intro-to-java)
 1. [Control Structures in Java](https://github.com/C4Q/AC3.3/tree/master/lessons/control-structures)
@@ -16,4 +18,3 @@
 10. [Arrays, ArrayLists, Maps](http://github.com/C4Q/AC-Android/blob/master/lessons/arrays-arraylists/arrays-ArrayLists-HashMaps/README.md)
 11. [Week 2 Review](https://github.com/C4Q/AC3.3/tree/master/lessons/review-list-maps)
 12. [Generics](https://github.com/C4Q/AC3.3/tree/master/lessons/generics)
-13. [Unit 1 Final Assessment]
