@@ -11,8 +11,8 @@
 3. [For Loops and Methods](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/for-loops)
 5. [Java Classes & OOP 1](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/classes-part-1)
 6. [Java Classes & OOP 2](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/classes-part-2)
-7. [Classes + OOP Review](https://github.com/C4Q/AC-Android/tree/master/lessons/classes-part1/classes_review)
-8. [DSA Runtime Analysis]()
-9. [Arrays, ArrayLists, Maps](http://github.com/C4Q/AC-Android/blob/master/lessons/arrays-arraylists/arrays-ArrayLists-HashMaps/README.md)
-10. [Week 2 Review](https://github.com/C4Q/AC3.3/tree/master/lessons/review-list-maps)
+7. [Arrays, ArrayLists, Maps](http://github.com/C4Q/AC-Android/blob/master/lessons/arrays-arraylists/arrays-ArrayLists-HashMaps/README.md)
+8. [Classes + OOP Review](https://github.com/C4Q/AC-Android/tree/master/lessons/classes-part1/classes_review)
+
+
 
