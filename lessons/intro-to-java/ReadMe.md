@@ -312,7 +312,3 @@ The full documentation for the String class is here: [Java Docs: Strings](http:/
 Let's complete some more exercises to experiment with Strings and printing:
 
 [Exercises: Working with Strings](exercises.md#strings)
-
-## Next Steps
-
-Please .....
