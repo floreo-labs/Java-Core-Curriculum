@@ -3,7 +3,7 @@
 <!-- @acxbank java-docs -->
 ### Q1. java-docs
 
-Find the Java 7 standard library documentation online. What is the URL?
+Find the Java standard library documentation online. What is the URL?
 <!-- end @acxbank -->
 
 
