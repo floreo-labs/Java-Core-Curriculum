@@ -22,6 +22,7 @@
 - [Print Statements](https://www.cis.upenn.edu/~matuszek/General/JavaSyntax/print-statements.html)
 - [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 - [List of Java keywords (reserved words)](https://en.wikipedia.org/wiki/List_of_Java_keywords)
+- [Oracle, Sun Microsystems and the Worst acquisitions in Tech](https://www.zdnet.com/article/worst-tech-mergers-and-acquisitions-oracle-and-sun-and-the-sad-tale-of-palm/)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 ### Programming Environment
