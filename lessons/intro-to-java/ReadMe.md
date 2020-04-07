@@ -17,7 +17,7 @@
 * [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
 
 ### Documentation
-- [Java History](http://papa.det.uvigo.es/~theiere/cursos/Curso_Java/history.html)
+- [Java History](https://www.geeksforgeeks.org/the-complete-history-of-java-programming-language/)
 - [Oracle's Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - [Print Statements](https://www.cis.upenn.edu/~matuszek/General/JavaSyntax/print-statements.html)
 - [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
