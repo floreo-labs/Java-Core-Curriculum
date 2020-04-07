@@ -1,5 +1,6 @@
 # Floreo Labs Java Core Curriculum 
 ## Units
+Welcome to Floreo Labs Core Education!
 
 0. [Intro to Java](/units/fundamentals) Java Fundamentals - IDE's, Control structures, Loops, Classes, OOP, Data Structures.
 1. [Intro to Java Cont.](/units/fundamentals_cont) The JVM, Networking in Java, Threads, Agile Development, Design Patterns.
@@ -11,10 +12,6 @@
 7. [Home Stretch + Capstone Development](/units/capstone_resources) Extra Stuff and Reviews.
 
 
-Welcome to Floreo Labs Core Education!
--  Calendar Check out the latest updates on workshops and events on the Curriculum calendar
-- [Schedule](schedule.md)
-- [Homework](homework/)
-- [Resources](resources/)
-- [Github Classroom](https://classroom.github.com/classrooms/21197287-accesscode3-3)
+- Check out the latest updates on workshops and events on the daily curriculum overview.
+- [Schedule](https://docs.google.com/document/d/1EzXqe45Yg7kfuBxCbqfHwyYhHfwySS13RW53TQnhV38/edit?usp=sharing)
 
