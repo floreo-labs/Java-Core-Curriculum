@@ -12,6 +12,6 @@ Welcome to Floreo Labs Core Education!
 7. [Home Stretch + Capstone Development](/units/capstone_resources) Extra Stuff and Reviews.
 
 
-- Check out the latest updates on workshops and events on the daily curriculum overview.
+Check out the latest updates on workshops and events on the daily curriculum overview.
 - [Schedule](https://docs.google.com/document/d/1EzXqe45Yg7kfuBxCbqfHwyYhHfwySS13RW53TQnhV38/edit?usp=sharing)
 
