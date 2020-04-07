@@ -83,11 +83,9 @@ These files are then compiled by the **javac** compiler into `.class` files cont
 
 ![diagram of flow from Java source to machine language](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
-### Exercises
+### Exercise
 
-1. [Command Line Java](command-line-java.md) (*We'll do this first one together*)
-
-2. [Java Exercises](exercises.md#java)
+1. [Java Exercises](exercises.md#java)
 
 ### Java Output
 
