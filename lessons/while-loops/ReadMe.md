@@ -223,14 +223,3 @@ int usersAge = input.nextInt();
 Functions in Java are called **Methods**.
 
 [This page](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html) has a full list of `Scanner` functions.
-
-Let's go through the first exercise together.
-
-#### Mid-Lecture Exercise: [Asking Questions](http://programmingbydoing.com/a/asking-questions.html)
-For this exercise, we will ask the user a number of questions back-to-back, store thier answers in variables, and print their answers back to them. Follow the link above for more information.
-
-Now try to use the `Scanner` yourself!
-
-## Exercises
-
-Please look at your Calendars to find and follow the link to the In-class exercises for today. We will work on the first two together as a class (M&M Questions), then work on our own, and eventually with each other, for the remainder of the questions.
