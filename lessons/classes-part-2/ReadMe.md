@@ -197,5 +197,3 @@ public class ScanFile {
     }
 }
 ```
-
-[In-class exercises](exercises.md)
