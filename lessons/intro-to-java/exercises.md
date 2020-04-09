@@ -3,7 +3,7 @@
 <!-- @acxbank java-docs -->
 ### Q1. java-docs
 
-Find the Java 7 standard library documentation online. What is the URL?
+Find the Java standard library documentation online. What is the URL?
 <!-- end @acxbank -->
 
 
@@ -42,40 +42,10 @@ Given two separate strings "Hello, " and "world!", concatenate them together to 
 <!-- end @acxbank -->
 
 
-<!-- @acxbank hello-world-java-vs-android -->
-### Q5. hello-world-java-vs-android
-
-You're probably familiar now with this example, which prints "Hello, world!" to the console:
-
-```java
-public class Hello {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-
-Take a look at the following block of Android code, which displays "Hello, world!" on the screen. What differences do you notice from the code above? What looks the same? *(Try to name at least 3 similarities and 3 differences!)*
-
-```java
-public class HelloActivity extends Activity {
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hello);
-
-        TextView myTextView = (TextView) findViewById(R.id.my_text_view);
-        myTextView.setText("Hello, world!");
-    }
-}
-```
-<!-- end @acxbank -->
-
-
 ## Variables & data types
 
 <!-- @acxbank java-integer-data-types -->
-### Q6. java-integer-data-types
+### Q5. java-integer-data-types
 
 What are the four integer data types? For each one, write down:
 
@@ -86,7 +56,7 @@ What are the four integer data types? For each one, write down:
 
 
 <!-- @acxbank java-float-data-types -->
-### Q7. java-float-data-types
+### Q6. java-float-data-types
 
 What are the two floating-point data types? For each one, write down:
 
@@ -96,7 +66,7 @@ What are the two floating-point data types? For each one, write down:
 
 
 <!-- @acxbank string-vs-char -->
-### Q8. string-vs-char
+### Q7. string-vs-char
 
 Explain the difference between `char` and `String`.
 <!-- end @acxbank -->
@@ -105,7 +75,7 @@ Explain the difference between `char` and `String`.
 ## Naming & assigning variables
 
 <!-- @acxbank number-data-types -->
-### Q9. number-data-types
+### Q8. number-data-types
 
 What happens when you:
 
@@ -116,7 +86,7 @@ What happens when you:
 
 
 <!-- @acxbank assigning-variables -->
-### Q10. assigning-variables
+### Q9. assigning-variables
 
 Assign variables for each of the following pieces of information.
 
@@ -137,14 +107,14 @@ For each one, be sure to choose a suitable data type and a descriptive name!
 ## Math & Operators
 
 <!-- @acxbank integer-vs-floating-point -->
-### Q11. integer-vs-floating-point
+### Q10. integer-vs-floating-point
 
 What is the difference between an integer and a floating-point number?
 <!-- end @acxbank -->
 
 
 <!-- @acxbank math-api -->
-### Q12. math-api
+### Q11. math-api
 
 Find the Java API for the Math class. Find the method `sqrt()`. What does it do? What is the data type of the parameter it accepts?
 <!-- end @acxbank -->
@@ -153,7 +123,7 @@ Find the Java API for the Math class. Find the method `sqrt()`. What does it do?
 ## Strings
 
 <!-- @acxbank string-api-intro -->
-### Q13. string-api-intro
+### Q12. string-api-intro
 
 Consider the following string:
 
@@ -171,7 +141,7 @@ String hannah = "Did Hannah see bees? Hannah did.";
 
 
 <!-- @acxbank string-substring -->
-### Q14. string-substring
+### Q13. string-substring
 
 How long is the string returned by the following expression? What is the string?
 
@@ -182,7 +152,7 @@ How long is the string returned by the following expression? What is the string?
 
 
 <!-- @acxbank string-api-intro-2 -->
-### Q15. string-api-intro-2
+### Q14. string-api-intro-2
 
 In the following program, called ComputeResult, what is the value of result after each numbered line executes?
 
@@ -207,7 +177,7 @@ public class ComputeResult {
 
 
 <!-- @acxbank string-vs-char-experiments -->
-### Q16. string-vs-char-experiments
+### Q15. string-vs-char-experiments
 
 Play with characters and Strings. What happens if you do the following:
 

@@ -17,11 +17,12 @@
 * [Video: Working with Strings](https://www.youtube.com/watch?v=p3EnEPP7SY8)
 
 ### Documentation
-- [Java History](http://papa.det.uvigo.es/~theiere/cursos/Curso_Java/history.html)
+- [Java History](https://www.geeksforgeeks.org/the-complete-history-of-java-programming-language/)
 - [Oracle's Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - [Print Statements](https://www.cis.upenn.edu/~matuszek/General/JavaSyntax/print-statements.html)
 - [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
 - [List of Java keywords (reserved words)](https://en.wikipedia.org/wiki/List_of_Java_keywords)
+- [Oracle, Sun Microsystems and the Worst acquisitions in Tech](https://www.zdnet.com/article/worst-tech-mergers-and-acquisitions-oracle-and-sun-and-the-sad-tale-of-palm/)
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
 
 ### Programming Environment
@@ -82,11 +83,9 @@ These files are then compiled by the **javac** compiler into `.class` files cont
 
 ![diagram of flow from Java source to machine language](https://docs.oracle.com/javase/tutorial/figures/getStarted/helloWorld.gif)
 
-### Exercises
+### Exercise
 
-1. [Command Line Java](command-line-java.md) (*We'll do this first one together*)
-
-2. [Java Exercises](exercises.md#java)
+1. [Java Exercises](exercises.md#java)
 
 ### Java Output
 
@@ -312,7 +311,3 @@ The full documentation for the String class is here: [Java Docs: Strings](http:/
 Let's complete some more exercises to experiment with Strings and printing:
 
 [Exercises: Working with Strings](exercises.md#strings)
-
-## Next Steps
-
-Please .....
