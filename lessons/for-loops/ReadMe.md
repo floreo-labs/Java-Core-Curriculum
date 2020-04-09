@@ -235,5 +235,5 @@ static void returnNothing() {
 ```
 ## Exercises
 
-Once you feel comfortable, try to complete the questions in [this exercise]() 
+Once you feel comfortable, try to complete the questions in [this exercise](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/for-loops/exercises/string-loops.md) 
 
