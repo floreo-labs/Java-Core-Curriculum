@@ -8,7 +8,7 @@
 -[Oracle Tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/index.html)
 
 ## Interfaces
-![ puzzle pieces ]( img/puzzle_pieces.gif )
+![ puzzle pieces ]( https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part2/img/puzzle_pieces.gif )
 
 <br />
 There are a number of situations in software engineering when it is important for disparate groups of programmers to agree to a "contract" that spells out how their software interacts. Each group should be able to write their code without any knowledge of how the other group's code is written. Generally speaking, interfaces are such contracts.
