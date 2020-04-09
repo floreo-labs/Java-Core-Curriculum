@@ -233,3 +233,7 @@ static void returnNothing() {
     System.out.println("This prints to the screen, but returns nothing else after it is called.");
 }
 ```
+## Exercises
+
+Once you feel comfortable, try to complete the questions in [this exercise]() 
+
