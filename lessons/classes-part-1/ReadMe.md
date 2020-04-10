@@ -100,7 +100,7 @@ All we are doing in that statement, is declaring a variable called ```scanner```
 
 Okay, that was a lot. Here's a puppy:
 
-<img src="https://lh6.ggpht.com/6ImJ_VXb8j__VcEYENFrNO-5dMPfUldZ4csUsCAuBRVZ9jfA2Xkel32MvWwRyWAmmbs=w300" alt="A fun puppy." style="width:300px;height:300px;">
+<img src="https://lh6.ggpht.com/6ImJ_VXb8j__VcEYENFrNO-5dMPfUldZ4csUsCAuBRVZ9jfA2Xkel32MvWwRyWAmmbs=w300" alt="A fun puppy." style="width:100px;height:100px;">
 
 Now, back to Classes and objects....
 
