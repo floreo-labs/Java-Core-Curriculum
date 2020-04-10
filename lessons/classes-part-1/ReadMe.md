@@ -182,7 +182,7 @@ So, how do we do that? By using something called a constructor.
 
 You've done well so far - here's a kitten:
 
-<img src="https://50-best.com/images/cute_kitten_pictures/thumbs/1-3.jpg" alt="A fun kitten." style="width:300px;height:300px;">
+<img src="https://kittenrescue.org/wp-content/uploads/2017/03/KittenRescue_KittenCareHandbook.jpg" alt="A fun kitten." style="width:300px;height:300px;">
 
 Now, back to Constructors....
 
