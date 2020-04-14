@@ -3,14 +3,15 @@
 
 ## Lessons
 0. [Java OOP III](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/interfaces-abstract-1/ReadMe.md)
-1. [Data Structures II]()
-2. [Design Patterns and Clean Code]()
-3. [Java Under The Hood]()
-4. [Networking in Java]()
-5. [Intro to Threads]()
-6. [Java Under The Hood II]()
-7. [Classes + OOP Review]()
-8. [Intro to Git]()
+1. [Java OOP IV](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/interfaces-abstract-2)
+2. [Data Structures II]()
+3. [Design Patterns and Clean Code]()
+4. [Java Under The Hood]()
+5. [Networking in Java]()
+6. [Intro to Threads]()
+7. [Java Under The Hood II]()
+8. [Classes + OOP Review]()
+9. [Intro to Git]()
 
 
 
