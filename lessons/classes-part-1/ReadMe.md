@@ -100,7 +100,7 @@ All we are doing in that statement, is declaring a variable called ```scanner```
 
 Okay, that was a lot. Here's a puppy:
 
-<img src="https://lh6.ggpht.com/6ImJ_VXb8j__VcEYENFrNO-5dMPfUldZ4csUsCAuBRVZ9jfA2Xkel32MvWwRyWAmmbs=w300" alt="A fun puppy." style="width:300px;height:300px;">
+<img src="https://lh6.ggpht.com/6ImJ_VXb8j__VcEYENFrNO-5dMPfUldZ4csUsCAuBRVZ9jfA2Xkel32MvWwRyWAmmbs=w300" alt="A fun puppy." style="width:100px;height:100px;">
 
 Now, back to Classes and objects....
 
@@ -182,7 +182,7 @@ So, how do we do that? By using something called a constructor.
 
 You've done well so far - here's a kitten:
 
-<img src="https://50-best.com/images/cute_kitten_pictures/thumbs/1-3.jpg" alt="A fun kitten." style="width:300px;height:300px;">
+<img src="https://kittenrescue.org/wp-content/uploads/2017/03/KittenRescue_KittenCareHandbook.jpg" alt="A fun kitten." style="width:300px;height:300px;">
 
 Now, back to Constructors....
 
