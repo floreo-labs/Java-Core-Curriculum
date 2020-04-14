@@ -11,7 +11,7 @@
 ![ puzzle pieces ]( https://github.com/joinpursuit/Pursuit-Core-Android/blob/master/lessons/interfaces-abstract-part2/img/puzzle_pieces.gif )
 
 <br />
-There are a number of situations in software engineering when it is important for disparate groups of programmers to agree to a "contract" that spells out how their software interacts. Each group should be able to write their code without any knowledge of how the other group's code is written. Generally speaking, interfaces are such contracts.
+There are a number of situations in software engineering when it is important for several groups of programmers working on a large scale application to agree to a "contract" that spells out how their software interacts. **Each group should be able to write their code without any knowledge of how the other group's code is written.** Generally speaking, interfaces in Java act as the contracts for your code. 
 
 In the Java programming language, an interface is a reference type, similar to a class, that can contain only constants, method signatures, default methods, static methods, and nested types. Method bodies exist only for default methods and static methods.
 
@@ -19,8 +19,8 @@ Interfaces cannot be instantiated—they can only be implemented by classes or e
 Quick example:
 ``` java
 public interface OperateCar {
-   int signalTurn(Direction direction,
-                  boolean signalOn);
+   
+   int signalTurn(Direction direction, boolean signalOn);
    // more method signatures
 }
 ```
@@ -30,19 +30,18 @@ public interface OperateCar {
 ### Defining an Interface
 An interface declaration consists of modifiers, the keyword `interface`, the interface name, a comma-separated list of parent interfaces (if any), and the interface body. For example:
 ```java
-public interface GroupedInterface extends Interface1, Interface2, Interface3 {
-
-    // constant declarations
+public interface ExampleInterface extends InterfaceOne, InterfaceTwo {
 
     // base of natural logarithms
     double E = 2.718282;
 
     // method signatures
     void doSomething (int i, double x);
+    
     int doSomethingElse(String s);
 }
 ```
-The public access specifier indicates that the interface can be used by any class in any package. If you do not specify that the interface is public, then your interface is accessible only to classes defined in the same package as the interface.
+The public access specifier indicates that the interface can be used by any class in any package. If you do not specify that the interface is public, then your interface is accessible only to classes defined in the same package as the interface. *We'll explain thi more as a group.*
 
 An interface can extend other interfaces, just as a class subclass or extend another class. However, whereas a class can extend only one other class, an interface can extend any number of interfaces. The interface declaration includes a comma-separated list of all the interfaces that it extends.
 
@@ -73,27 +72,27 @@ If you know that a class implements Relatable, then you know that you can compar
 
 Implementing the Relatable Interface
 
-Here is the Rectangle class that was presented in the Creating Objects section, rewritten to implement Relatable.
+Here is the Rectangle class written to implement Relatable.
 
 ```java
-public class RectanglePlus implements Relatable {
+public class Rectangle implements Relatable {
     public int width = 0;
     public int height = 0;
     public Point origin;
 
     // four constructors
-    public RectanglePlus() {
+    public Rectangle() {
         origin = new Point(0, 0);
     }
-    public RectanglePlus(Point p) {
+    public Rectangle(Point p) {
         origin = p;
     }
-    public RectanglePlus(int w, int h) {
+    public Rectangle(int w, int h) {
         origin = new Point(0, 0);
         width = w;
         height = h;
     }
-    public RectanglePlus(Point p, int w, int h) {
+    public Rectangle(Point p, int w, int h) {
         origin = p;
         width = w;
         height = h;
@@ -114,26 +113,26 @@ public class RectanglePlus implements Relatable {
     // a method required to implement
     // the Relatable interface
     public int isLargerThan(Relatable other) {
-        RectanglePlus otherRect
-            = (RectanglePlus)other;
-        if (this.getArea() < otherRect.getArea())
+        Rectangle otherRect  = (Rectangle)other;
+        if (this.getArea() < otherRect.getArea()){
             return -1;
-        else if (this.getArea() > otherRect.getArea())
+        } else if (this.getArea() > otherRect.getArea()){
             return 1;
-        else
+        } else {
             return 0;
+        }
     }
 }
 ```
-Because RectanglePlus implements Relatable, the size of any two RectanglePlus objects can be compared.
+Because Rectangle implements Relatable, the size of any two Rectangle objects can be compared.
 
 Note: The isLargerThan method, as defined in the Relatable interface, takes an object of type Relatable.
 
-The line of code, shown in bold in the previous example, casts `other` to a RectanglePlus instance.
+The line of code, shown in bold in the previous example, casts `other` to a Rectangle instance.
 
-Type casting tells the compiler what the object really is.
+**Type casting tells the compiler what the object really is.**
 
-Invoking getArea directly on the `other` instance `(other.getArea())` would fail to compile because the compiler does not understand that `other` is actually an instance of RectanglePlus.
+Invoking getArea directly on the `other` instance `(other.getArea())` would fail to compile because the compiler does not understand that `other` is actually an instance of Rectangle.
 
 ### Using an Interface as a Type
 
@@ -182,7 +181,9 @@ Consider an interface that you have developed called DoIt:
 
 ```java
 public interface DoIt {
+
    void doSomething(int i, double x);
+   
    int doSomethingElse(String s);
 }
 ```
@@ -192,14 +193,15 @@ Suppose that, at a later time, you want to add a third method to DoIt, so that t
 public interface DoIt {
 
    void doSomething(int i, double x);
+   
    int doSomethingElse(String s);
+   
    boolean didItWork(int i, double x, String s);
-
 }
 ```
-*IMPORTANT(MAKE SURE YOU UNDERSTAND WHY THIS IS)* - If you make this change, then all classes that implement the old DoIt interface will break because they no longer implement the old interface. Programmers relying on this interface will protest loudly.
+**- If you make this change, then all classes that implement the old DoIt interface will break because they no longer implement the old interface.** Programmers relying on this interface will not be happy about this.
 
-Try to anticipate all uses for your interface and specify it completely from the beginning. If you want to add additional methods to an interface, you have several options. You could create a DoItPlus interface that extends DoIt:
+When writing Object Oriented Java try to build a mental model of your program and try to anticipate all uses for your interfaces before writing your code. If you want to add additional methods to an interface, you have several options. For example You could create a DoItPlus interface that extends DoIt:
 
 ```java
 public interface DoItPlus extends DoIt {
@@ -225,7 +227,7 @@ public interface DoIt {
 ```
 Note that you must provide an implementation for default methods. You could also define new static methods to existing interfaces. Users who have classes that implement interfaces enhanced with new default or static methods do not have to modify or recompile them to accommodate the additional methods.
 
-### Default Methods
+### Default Methods and their use case
 
 Consider the use case of manufacturers of computer-controlled cars who publish industry-standard interfaces that describe which methods can be invoked to operate their cars. What if those computer-controlled car manufacturers add new functionality, such as flight, to their cars? These manufacturers would need to specify new methods to enable other companies (such as electronic guidance instrument manufacturers) to adapt their software to flying cars. Where would these car manufacturers declare these new flight-related methods? If they add them to their original interfaces, then programmers who have implemented those interfaces would have to rewrite their implementations. If they add them as static methods, then programmers would regard them as utility methods, not as essential, core methods.
 
