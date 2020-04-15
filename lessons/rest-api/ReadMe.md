@@ -1,3 +1,7 @@
+# Objectives
+- Review REST API's
+- Understand their use case
+
 # REST APIs
 The glue between the frontend and backend
 
