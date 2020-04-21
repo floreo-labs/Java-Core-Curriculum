@@ -7,7 +7,7 @@
 2. [Data Structures II](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/stacks-queues)
 3. [DSIII](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/into-to-bigo)
 4. [RestAPI's](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/rest-api)
-5. [Networking in Java]()
+5. [Networking in Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/json)
 6. [Intro to Threads]()
 7. [Java Under The Hood II]()
 8. [Classes + OOP Review]()
