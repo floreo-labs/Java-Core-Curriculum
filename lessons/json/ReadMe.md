@@ -103,6 +103,6 @@ But have no fear -- there are many awesome JSON viewers to choose from that will
 
 If we want our Java program to interact with external web APIs that serve JSON, we need a way to **parse** these JSON objects into Java. There are a number of popular Java libraries to do this (see [Gson](https://github.com/google/gson), [Jackson](https://github.com/FasterXML/jackson)), but today we're going to get started with JSON.simple.
 
-We'll need to start with downloading the [JSON.simple](https://json-simple.googlecode.com/files/json-simple-1.1.1.jar) library and [importing it into our intellij project](importing.md).
+We'll need to start with downloading the [SimpleJSON](https://github.com/RalleYTN/SimpleJSON/releases/tag/1.1.0) library by clicking on the top-most .zip file. Unzip the file once finished downloading and follow the [importing it into our intellij project](importing.md) steps so that the library is integrated with your IntelliJ project. To learn more about parsing JSON with this library check out the [SimpleJSON ReadMe](https://github.com/RalleYTN/SimpleJSON)
 
 [JSON Parsing exercises](exercises.md)
