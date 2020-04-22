@@ -26,7 +26,7 @@ The following setup steps only need to be completed **once per team**:
 1. Form a clear picture of the project requirements. Spend some time reading through:
     - This readme doc.
     - The [Slack Web API docs](https://api.slack.com/web) and [Basic message formatting guidelines](https://api.slack.com/docs/message-formatting).
-    - The code that has been provided in the `SlackBot` project -- particulary the Slack.java class, which provides methods that your bot can use to interact with Slack's Web API.
+    - The code that has been provided in the `Lab_SlackBot` project -- particulary the Slack.java class, which provides methods that your bot can use to interact with Slack's Web API.
     - Use the IntelliJ TODO panel (⌘6) to navigate to each of the project TODOs.
 
 2. For both of the following Slack API JSON objects, write a Java class to parse and represent it as a Java object. Each team member should be responsible for parsing at least one of the classes:
@@ -59,7 +59,6 @@ The following setup steps only need to be completed **once per team**:
 
 - How will your team divide tasks?
 - How will your team coordinate and collaborate throughout the week?
-- Submit a summary of your team's discussion using the Google Form link (check Slack!).
 
 ## Resources
 - [Slack Web API docs](https://api.slack.com/web)
@@ -67,6 +66,6 @@ The following setup steps only need to be completed **once per team**:
 
 ## Submission
 
-1. For each feature that you work on, create a new branch in your forked SlackBot repo named `XXMMDD_FeatureName`, where `XXMMDD` are your initials and the month and day and `FeatureName` describes the feature you are working on. When you finish each feature, add, commit and push your changes. On GitHub, open a new Pull Request and assign it to your teammate to review and merge.
+1. Each team member create a new branch in your forked Lab_SlackBot repo named after you to identify their work. Each commmit should be short but descriptive enough to hint at the work you've done. When you finish each feature, add, commit and push your changes. On GitHub, open a new Pull Request and assign it to your teammate to review and merge.
 
-2. This assignment is due by ***8am on Tuesday 4/28***. All code should be committed and pushed by the deadline. Each team member should complete the Google Form (check Slack closer to submission date!) to submit.
+2. This assignment is due by ***8am on Wednesday 4/29***. All code should be committed and pushed by the deadline. Each team member should complete the Google Form (check Slack closer to submission date!) to submit.
