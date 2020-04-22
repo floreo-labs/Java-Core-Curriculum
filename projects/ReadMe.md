@@ -4,7 +4,7 @@ A [Slack bot](https://api.slack.com/bot-users) is a non-human "user" that intera
 
 ![slack bot example](https://api.slack.com/img/api/guide_bot_user.png)
 
-Slack offers three different APIs that developers can use to interact with their service: the Web API, the Real Time Messaging API and the Events API . In this project, bots will only interact using the [Web API](https://api.slack.com/web). The Web API offers methods that can be used to list AccessCode3-3 channels, view message history on a given channel, and post and delete messages on the #bots channel.
+Slack offers three different APIs that developers can use to interact with their service: the Web API, the Real Time Messaging API and the Events API . In this project, bots will only interact using the [Web API](https://api.slack.com/web). The Web API offers methods that can be used to list Dream Corps Tech channels, view message history on a given channel, and post and delete messages on the #bots channel.
 <br>
 ## Setup
 The following setup steps only need to be completed **once per team**:
