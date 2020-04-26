@@ -25,7 +25,7 @@ An object which will have only a single instance through out the entire life of 
 Typically used when you must synchronize access to a critical section of code.
 * Advantages - Simple to understand
 * Disadvantages - Is not modular, hard to replace in the future, 
-* BB's personal opinion - I rarely use singletons, unless I have a single entity that must have synchronized access, like a database.
+* Bobby's personal opinion - I rarely use singletons, unless I have a single entity that must have synchronized access, like a database.
   Every new programmer first learns singletons, abuse it, and some never realize when it should not be used.
   When using a singleton in Java, it is **EXTREMELY** important to realize how your referencse and variables interacts with the singleton. 
   
