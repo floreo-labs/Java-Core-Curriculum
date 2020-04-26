@@ -1,11 +1,11 @@
 # Design Patterns in Java
 
 ## Objectives
-* Fellows will discover why design patterns are useful in programs
-* Fellows will create a list a constants by using Enums
-* Fellows will explore Abstraction and Instance control with Static Factory Methods
-* Fellows will create single instances with Singletons
-* Fellows will instantiate flexibly with the Builder Pattern
+* Students will discover why design patterns are useful in programs
+* Students will create a list a constants by using Enums
+* Students will explore Abstraction and Instance control with Static Factory Methods
+* Students will create single instances with Singletons
+* Students will instantiate flexibly with the Builder Pattern
 
 ## Resources
 * [Sourcemaking: Design Patterns](https://sourcemaking.com/design_patterns)
@@ -280,7 +280,7 @@ By using this pattern, you can limit the number of instances a user can create, 
 
 ## Builder Pattern
 
-This is a pattern we've seen before:
+This is a pattern you may have seen before if you've used the Retrofit Library for Java HTTP requests:
 
 ```java
 Retrofit retrofit = new Retrofit.Builder()
