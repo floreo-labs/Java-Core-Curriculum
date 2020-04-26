@@ -49,7 +49,7 @@ the methods needed for operation.
 
 ## Observer
 An object that tracks listeners for changes in state, and publishes them to all listeners as necessary. This is a very popular design
-pattern to be used in 2016, and is often found in event-based programming models
+pattern to be used in modern programming, and is often found in event-based programming models
 * Advantages - modular, flexible, easy to extend, modify, scalable
 * Disadvantages - Depending on implementation details, could be hard to debug.
 * How to create: For each class that has data that can be observed, make a dynamic list to store all observers for that data. 

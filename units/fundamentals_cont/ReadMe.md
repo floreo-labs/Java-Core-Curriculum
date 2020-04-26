@@ -8,10 +8,11 @@
 3. [DSIII](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/into-to-bigo)
 4. [RestAPI's](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/rest-api)
 5. [Networking in Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/json)
-6. [Intro to Threads]()
-7. [Java Under The Hood II]()
-8. [Classes + OOP Review]()
-9. [Intro to Git]()
+6. [Design Patterns]()
+7. [Intro to Threads]()
+8. [Java Under The Hood II]()
+9. [Classes + OOP Review]()
+10. [Intro to Git]()
 
 
 
