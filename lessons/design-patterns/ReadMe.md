@@ -1,5 +1,4 @@
 - title: Design Patterns
-- tags: java, android, app
 
 # Objectives
 - Learn common design patterns in Programming
