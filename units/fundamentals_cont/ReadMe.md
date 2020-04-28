@@ -10,8 +10,7 @@
 5. [Networking in Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/json)
 6. [Design Patterns](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/design-patterns/ReadMe.md)
 7. [Design Patterns II](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/design-patterns/dsp_cont)
-8. [Intro to Threads]()
-9. [Review]()
+8. [Review]()
 
 
 
