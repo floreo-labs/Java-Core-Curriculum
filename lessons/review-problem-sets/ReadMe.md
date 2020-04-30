@@ -1,6 +1,6 @@
 ### Problem Sets (Must Submit For Review)
 
-Instructions for review: Please do all three of the problems in a IntelliJ project. Each solution should be in its own class. Your main method in the Main class should be invoking the three solution methods from an object instance. Please send me (Bobby) the link when complete.
+Please complete all three of the problems in an IntelliJ project. Each solution should be in its own class with the main method in the Main class invoking the three solution methods from each object instance. Please send me (Bobby) the github link to your repo when complete.
 
 ### Q1. Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -62,7 +62,7 @@ public class UniqueArray{
 
 public class MySequence {
 
-    public int findSubstring(String s){
+    public int getSequence(String s){
 
     }
 }
