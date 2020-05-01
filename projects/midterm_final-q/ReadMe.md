@@ -72,12 +72,12 @@ public class Game {
 ```
 <b>c.</b> Complete the rest of the Game class using the given comments as direction. DO NOT change the class or method signatures provided.
 
-4. <br /><b>a.</b> In your Main class, specifically in your static main method, create an instance of your Game Object then invoke the startGame() method to start the Rock Paper Scissors game!
+5. <br /><b>a.</b> In your Main class, specifically in your static main method, create an instance of your Game Object then invoke the startGame() method to start the Rock Paper Scissors game!
      <br /><b>b.</b> Test that your solution works by playing a game of Rock, Paper, Scissors, and if it works like the classic version then you've completed your program.
      <br /><b>c.</b> Commit and push your finished code to the remote game branch then make a PR so that your remote master branch has all of the code from your remote game branch.
     <br /><b>d.</b> Submit the link to your repo on the Midterm Assesment form when compelte
 
-5. <b>BONUS POINTS:</b> Bonus points will be given to those who do the following 
+6. <b>BONUS POINTS:</b> Bonus points will be given to those who do the following 
   <br /><b>a.</b> Do not make any of the classes, methods or variables static except for the static main method in your Main class.
   <br /><b>b.</b> Beautify the command line app by formatting strings and adding welcome messages and properly printing out the results in a succint, and user friendly manner
   <br /><b>c.</b> Add multiple rounds to the game with a winner announced at the end.
