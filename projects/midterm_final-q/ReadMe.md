@@ -1,7 +1,7 @@
 ### Q11. The final portion of the midterm is to complete a Rock, Paper, Scissors command-line game in Java. Please closely follow the following directions and push your code to the appropriate branch when directed to. 
 
-1. Create a new Java project with IntelliJ
-    a. Name it RPS_game
+1.  <br /><b>a.<b>Create a new Java project with IntelliJ
+    <br /><b>b.</b> Name it RPS_game
 
 2.  <br /><b>a</b>. Create three Java classes: Rock, Paper, Scissors. You should now have 4 classes including a Main class.
     <br /><b>b.</b> Create three local branches: Rock, Paper, Scissors
