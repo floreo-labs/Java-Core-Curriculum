@@ -3,10 +3,10 @@
 1. Create a new Java project with IntelliJ
     a. Name it RPS_game
 
-2.  a. Create three Java classes: Rock, Paper, Scissors. You should now have 4 classes including a Main class.
-    b. Create three local branches: Rock, Paper, Scissors
-    c. Then push each local branch to your remote repository. You should now have four branches in your remote repo (master, Rock, Paper, Scissors)
-    d. Merge the master branch with any of the other remote branches so that your master is up to date and identical to the other branches
+2.  <br /><b>a</b>. Create three Java classes: Rock, Paper, Scissors. You should now have 4 classes including a Main class.
+    <br /><b>b.</b> Create three local branches: Rock, Paper, Scissors
+    <br /><b>c.</b> Then push each local branch to your remote repository. You should now have four branches in your remote repo (master, Rock, Paper, Scissors)
+    <br /><b>d.<b> Merge the master branch with any of the other remote branches so that your master is up to date and identical to the other branches
 
 3. Add the appropriate code to each respective RPS class like so:
 
