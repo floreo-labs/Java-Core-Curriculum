@@ -6,7 +6,7 @@
 2.  <br /><b>a</b>. Create three Java classes: Rock, Paper, Scissors. You should now have 4 classes including a Main class.
     <br /><b>b.</b> Create three local branches: Rock, Paper, Scissors
     <br /><b>c.</b> Then push each local branch to your remote repository. You should now have four branches in your remote repo (master, Rock, Paper, Scissors)
-    <br /><b>d.<b> Merge the master branch with any of the other remote branches so that your master is up to date and identical to the other branches
+    <br /><b>d.</b> Merge the master branch with any of the other remote branches so that your master is up to date and identical to the other branches
 
 3. Add the appropriate code to each respective RPS class like so:
 
@@ -41,12 +41,12 @@ public class Scissors {
     }
 }
 ```
-b. When adding the code to each class, checkout to the appropriate branch (Rock, Paper, or Scissors branch) then commit and push to the remote branch when you're finished updating each class. 
-c. After each class is updated and pushed to their respective branch, merge each one to master via Pull Requests (they do not need to be reviewed).
-d. In your local project checkout to the local master class and pull from origin master to get the latest code from the remote repo.
+<b>b.</b> When adding the code to each class, checkout to the appropriate branch (Rock, Paper, or Scissors branch) then commit and push to the remote branch when you're finished updating each class. 
+ <br /><b>c.</b> After each class is updated and pushed to their respective branch, merge each one to master via Pull Requests (they do not need to be reviewed).
+ <br /><b>d.</b> In your local project checkout to the local master class and pull from origin master to get the latest code from the remote repo.
 
-4. a. Git checkout and create a game branch.
-   b. Create a Game class with the following code: 
+4.  <br /><b>a.</b> Git checkout and create a game branch.
+    <br /><b>b.</b> Create a Game class with the following code: 
 
 ```java 
 public class Game {
@@ -70,17 +70,17 @@ public class Game {
 }
 
 ```
-c. Complete the rest of the Game class using the given comments as direction. DO NOT change the class or method signatures provided.
+<b>c.</b> Complete the rest of the Game class using the given comments as direction. DO NOT change the class or method signatures provided.
 
-4. a. In your Main class, specifically in your static main method, create an instance of your Game Object then invoke the startGame() method to start the Rock Paper Scissors game!
-    b. Test that your solution works by playing a game of Rock, Paper, Scissors, and if it works like the classic version then you've completed your program.
-    c. Commit and push your finished code to the remote game branch then make a PR so that your remote master branch has all of the code from your remote game branch.
-    d. Submit the link to your repo on the Midterm Assesment form when compelte
+4. <br /><b>a.</b> In your Main class, specifically in your static main method, create an instance of your Game Object then invoke the startGame() method to start the Rock Paper Scissors game!
+     <br /><b>b.</b> Test that your solution works by playing a game of Rock, Paper, Scissors, and if it works like the classic version then you've completed your program.
+     <br /><b>c.</b> Commit and push your finished code to the remote game branch then make a PR so that your remote master branch has all of the code from your remote game branch.
+    <br /><b>d.</b> Submit the link to your repo on the Midterm Assesment form when compelte
 
-5. BONUS POINTS: Bonus points will be given to those who do the following 
- a. Do not make any of the classes, methods or variables static except for the static main method in your Main class.
- b. Beautify the command line app by formatting strings and adding welcome messages and properly printing out the results in a succint, and user friendly manner
- c. Add multiple rounds to the game with a winner announced at the end.
+5. <b>BONUS POINTS:</b> Bonus points will be given to those who do the following 
+  <br /><b>a.</b> Do not make any of the classes, methods or variables static except for the static main method in your Main class.
+  <br /><b>b.</b> Beautify the command line app by formatting strings and adding welcome messages and properly printing out the results in a succint, and user friendly manner
+  <br /><b>c.</b> Add multiple rounds to the game with a winner announced at the end.
 
 
 
