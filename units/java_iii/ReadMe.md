@@ -2,7 +2,7 @@
 
 
 ## Lessons
-0. [Java Threads]()
+0. [Java Threads](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/threads)
 1. [Generics]()
 2. [Data Structures IV]()
 3. [Software Architecture]()
