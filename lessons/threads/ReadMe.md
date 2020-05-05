@@ -1,4 +1,4 @@
-## Multithreading and Concurrency in Android
+## Multithreading and Concurrency in Java
 
 ### Objective
 
