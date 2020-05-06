@@ -1,4 +1,4 @@
-## Multithreading and Concurrency in Android
+## Multithreading and Concurrency in Java
 
 ### Objective
 
@@ -6,7 +6,6 @@ Students will understand:
 
 * what processes and threads are in general
 * The difference between threads and processes
-* the role of the main (aka UI) thread and what to do and NOT do
 * the different ways to work with threading in Java
 
 
