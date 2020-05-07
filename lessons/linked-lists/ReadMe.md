@@ -1,8 +1,8 @@
-- title: Linked Lists, Stacks & Queues
+# Linked Lists, Stacks & Queues
 
 # Objectives
 
-- Review linked lists and implementations of their common methods. 
+- Learn about linked lists and implementations of their common methods. 
 - Review stacks and queues and implementations of their common methods. 
 - Identify the runtime complexity of each implemented operation.
 - Understand the difference between singly vs. doubly linked lists.
