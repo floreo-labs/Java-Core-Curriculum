@@ -1,4 +1,4 @@
-# Clean Code in Java
+# Clean Code and Software Architecture in Java
 
 ## Resources
 - [Georgia Tech Intro to Software Architecture](https://www.youtube.com/watch?v=6bX2EPI-BqE)
