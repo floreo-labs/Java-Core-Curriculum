@@ -255,7 +255,6 @@ Date date = new Date();
 addMonthToDate(1, date);
 ```
 
-**[⬆ back to top](#table-of-contents)**
 
 ### Methods should only be one level of abstraction
 When you have more than one level of abstraction your method is usually
@@ -267,7 +266,6 @@ testing.
 
 **Good:**
 
-**[⬆ back to top](#table-of-contents)**
 
 ### Remove duplicate code
 Do your absolute best to avoid duplicate code. Duplicate code is bad because it
