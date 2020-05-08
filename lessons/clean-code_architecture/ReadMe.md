@@ -261,10 +261,6 @@ When you have more than one level of abstraction your method is usually
 doing too much. Splitting up methods leads to reusability and easier
 testing.
 
-**Bad:**
-
-
-**Good:**
 
 
 ### Remove duplicate code
