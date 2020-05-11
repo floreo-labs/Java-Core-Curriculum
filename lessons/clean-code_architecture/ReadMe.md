@@ -261,10 +261,6 @@ When you have more than one level of abstraction your method is usually
 doing too much. Splitting up methods leads to reusability and easier
 testing.
 
-**Bad:**
-
-
-**Good:**
 
 
 ### Remove duplicate code
@@ -284,7 +280,7 @@ duplicate code means creating an abstraction that can handle this set of
 different things with just one Method/module/class.
 
 Getting the abstraction right is critical, that's why you should follow the
-SOLID principles laid out in the *Classes* section. Bad abstractions can be
+SOLID principles. Bad abstractions can be
 worse than duplicate code, so be careful! Having said this, if you can make
 a good abstraction, do it! Don't repeat yourself, otherwise you'll find yourself
 updating multiple places anytime you want to change one thing.
