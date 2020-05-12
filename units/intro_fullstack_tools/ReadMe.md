@@ -3,4 +3,4 @@
 
 ## Lessons
 
-1. [Intro to Cloud Computing]()
+1. [Intro to Cloud Computing](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/intro-to-cloud)
