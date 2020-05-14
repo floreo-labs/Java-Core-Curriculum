@@ -8,8 +8,7 @@
 2. [Java III, Architecture, Optimization](/units/java_iii) Microservices, Testing, DSA, and Month Review. 
 3. [Intro to FullStack, and Java Frameworks & Tools](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/units/intro_fullstack_tools) Cloud Computing, TDD, Spring and Spring Boot.
 4. [Advanced Java, Data Structures & Intro to Front-End](/units/advanced_java) Git Advanced Topics, DB Concepts, Angular & TypeScript.
-5. [Intro to Capstone](/units/capstone_intro) Project Planning, Collaborating on Git
-6. [Home Stretch + Capstone Development](/units/capstone_resources) Extra Stuff and Reviews.
+5. [Home Stretch + Capstone Development](/units/capstone_resources) Extra Stuff and Reviews.
 
 
 Check out the latest updates on workshops and events on the daily curriculum overview.
