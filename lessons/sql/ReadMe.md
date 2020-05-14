@@ -9,6 +9,7 @@
 
 ## Resources
 
+- [What is SQL?](https://www.youtube.com/watch?v=27axs9dO7AE)
 - [Glossary of commonly used SQL commands](https://www.codecademy.com/articles/sql-commands)
 - [SQLite Online Emulator](http://kripken.github.io/sql.js/GUI/)
 - [Performing Database Operations in Java](https://www.geeksforgeeks.org/performing-database-operations-java-sql-create-insert-update-delete-select/)
