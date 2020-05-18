@@ -1,4 +1,4 @@
-# A Singleton Patter Deep Dive, Static in Java and Spring
+# Singleton Pattern Deep Dive, Static in Java and Spring
 
 ## Objectives
 Engineers will: 
@@ -141,7 +141,9 @@ public static Universe getInstance(String name, int numberOfGalaxies) {
 
 ### How do Singletons tie in with Spring
 
-As your application grows managing your object instantion across multiple classes and methods with just pure Java code becomes a hassle and your source code will soon be prone to errors and [Memory Leaks](https://www.baeldung.com/java-memory-leaks), which is why many developers consider the use of Singletons at all in your code as a code smell. There are very few instances where you would want to write your own singleton objects (maybe for an HTTP client). To solve this problem of managinig your object creation and thus your memory management and software performance, developers made libraries and frameworks like Spring to handle it, hence why DI is such a hallmark of the Spring Framework.
+As your application grows, managing your object instantions across multiple classes and methods with just pure Java code becomes a hassle. Your source code will eventually be prone to errors and expensive [Memory Leaks](https://www.baeldung.com/java-memory-leaks). 
+
+This is why many developers consider the use of Singletons in your code at all a code smell. There are very few instances where you would want to write your own singleton objects (creation of an HTTP client being one). To solve this problem of managinig your object's creation and thus your memory management and software performance, developers made libraries and frameworks like Spring to handle it, hence why DI is such a hallmark of the Spring Framework.
 
 To get a better sense of how Spring helps solve this developer issue, watch this video here: [What is the Spring framework really all about?](https://www.youtube.com/watch?v=gq4S-ovWVlM)
 
