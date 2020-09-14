@@ -1,7 +1,7 @@
 # Floreo Labs Java Core Curriculum :coffee:
 
 ## Welcome to Floreo Labs Core Education! :books::rocket:
-[https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/resources/Artboard%2012.png](floreo_logo)
+![https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/resources/Artboard%2012.png](floreo_logo)
 
 ## Units
 0. [Intro to Java](/units/fundamentals) Java Fundamentals - IDE's, Control structures, Loops, Classes, OOP, Data Structures.
