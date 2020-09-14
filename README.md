@@ -1,4 +1,4 @@
-# Floreo Labs Java Core Curriculum 
+# Floreo Labs Java Core Curriculum :coffee:
 
 ## Welcome to Floreo Labs Core Education!
 
