@@ -1,6 +1,7 @@
 # Floreo Labs Java Core Curriculum :coffee:
 
 ## Welcome to Floreo Labs Core Education! :books::rocket:
+
 ![https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/resources/Artboard%2012.png](floreo_logo)
 
 ## Units
