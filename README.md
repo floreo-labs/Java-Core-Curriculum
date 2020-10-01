@@ -11,5 +11,5 @@
 
 
 Check out the latest updates on workshops and events on the daily curriculum overview.
-- [Schedule](https://docs.google.com/document/d/1EzXqe45Yg7kfuBxCbqfHwyYhHfwySS13RW53TQnhV38/edit?usp=sharing)
+- [Schedule](https://docs.google.com/document/d/1FKP9s8FZKqcT-GiN4qSBJhh23LERWUlIWY1sPbTeJxw/edit?usp=sharing)
 
