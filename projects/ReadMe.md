@@ -68,4 +68,4 @@ The following setup steps only need to be completed **once per team**:
 
 1. Each team member create a new branch in your forked Lab_SlackBot repo named after you to identify their work. Each commmit should be short but descriptive enough to hint at the work you've done. When you finish each feature, add, commit and push your changes. On GitHub, open a new Pull Request and assign it to your teammate to review and merge.
 
-2. This assignment is due by ***8am on Wednesday 4/29***. All code should be committed and pushed by the deadline. Each team member should complete the Google Form (check Slack closer to submission date!) to submit.
+2. This assignment is due by ***5pm on Friday 10/23***. All code should be committed and pushed by the deadline. Each team member should complete the Google Form (check Slack closer to submission date!) to submit.
