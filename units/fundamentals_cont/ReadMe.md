@@ -7,7 +7,7 @@
 2. [Java OOP IV](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/interfaces-abstract-2)
 3. [Networking in Java](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/json)
 4. [RestAPI's](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/rest-api)
-5. [Big O]()
+5. [Big O](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/big-o-1)
 6. [Big O II](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/into-to-bigo)
 7. [Design Patterns](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/design-patterns/ReadMe.md)
 8. [Design Patterns II](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/design-patterns/dsp_cont)
