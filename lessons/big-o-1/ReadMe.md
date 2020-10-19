@@ -63,7 +63,7 @@ The fastest algorithms are `constant: O(1)`,  with the slowest carrying higher o
 #### Example 1: 
 What is the runtime of the following method?
 
-```
+```java
 public static void simpleFunction(int n) {
     int a = 9;
     int b = 3;
@@ -82,7 +82,7 @@ The excecution of this method is a constant time operation `O(1)`, because the m
 #### Example 2: 
 Here `n` is used as the size of the method's input
 
-```
+```java
 public static void singleForLoop(int n){
     for(int i = 0; i < n; i++){
         System.out.println(String.format("Square of %s is %s", i, Math.pow(i,2.0)));
@@ -97,7 +97,7 @@ If we were to use a while loop declaring an `int i = 0` and `i < n` as the condi
 #### example 3: 
 conditionals
 
-```
+```java
 public static void ifStatement(int n){
     if(n % 2 == 0){
         System.out.println("even");
@@ -113,7 +113,7 @@ Since Complexity analysis is based on the worst case scenario, the complexity of
 #### Example 4: 
 nested loops
 
-```
+```java
 public static void nestedForLoop(int n){
     for(int i = 0; i < n; i++;) {
         for(int j = 0; j < n; j++){
