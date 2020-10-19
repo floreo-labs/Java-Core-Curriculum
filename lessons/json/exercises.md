@@ -38,9 +38,8 @@ public class Pizza {
 }
 ```
 
-### Q3. Write a JSON parser for the `Pizza` class (from Q2) that parses your pizza JSON object.
 
-### Q4. Write a Java class `Attachment` that represents the following Slack JSON object.
+### Q3. Write a Java class `Attachment` that represents the following Slack JSON object.
 
 ```json
 {
@@ -68,9 +67,7 @@ public class Pizza {
         }
 ```
 
-### Q5. Write a JSON parser for the `Attachment` class that parses a Slack `attachment` JSON object.
-
-### Q6. Write a Java class `User` that represents a Slack `user` JSON object.
+### Q4. Write a Java class `User` that represents a Slack `user` JSON object.
 
 ```json
 {
@@ -102,10 +99,7 @@ public class Pizza {
     "has_files": true
 }
 ```
-
-### Q7. Write a JSON parser for the `User` class that parses a Slack `user` JSON object.
-
-### Q8. Think of some web services that you like to use (e.g. Facebook, Twitter, Google Maps, Snapchat...). Search Google to find one that has a public API. 
+### Q5. Think of some web services that you like to use (e.g. Facebook, Twitter, Google Maps, Snapchat...). Search Google to find one that has a public API. 
     a. In what ways does the API allow developers to interact with the service? 
     b. If there is a REST API, what endpoints does it offer? 
     c. How does the service format responses (e.g. JSON, XML...)
