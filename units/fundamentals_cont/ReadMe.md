@@ -9,8 +9,8 @@
 4. [RestAPI's](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/rest-api)
 5. [Big O](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/big-o-1)
 6. [Big O II](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/into-to-bigo)
-7. [Design Patterns](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/design-patterns/ReadMe.md)
-8. [Design Patterns II](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/design-patterns/dsp_cont)
+7. [Design Patterns](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/design-patterns/dsp_cont)
+8. [Design Patterns II](https://github.com/floreo-labs/Java-Core-Curriculum/blob/master/lessons/design-patterns/ReadMe.md)
 9. [Review](https://github.com/floreo-labs/Java-Core-Curriculum/tree/master/lessons/java-fund-review)
 
 
