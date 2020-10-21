@@ -98,7 +98,7 @@ By changing our parameter to be of type `Weather`, we narrow our possible choice
 But - having to write `Weather` for every choice can be repetitive. A way around this is with a **Static Import**:
 
 ```java
-import static nyc.c4q.designpatterns.enumpatterns.Weather.*;
+import static nyc.floreo.designpatterns.enumpatterns.Weather.*;
 ```
 
 Static import is a feature in Java which allows members (fields and methods) defined in a class as `public static` to be used in Java code, without specifying the class in which the field is defined. This is particularly useful if a class has a long name....
