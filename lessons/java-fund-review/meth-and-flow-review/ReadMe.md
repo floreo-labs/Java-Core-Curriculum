@@ -112,7 +112,7 @@ static void returnNothing() {
 **Ground Rules for Exercises**
 
 - Don't just copy and paste! Programming, like playing an instrument or speaking another language, requires muscle memory. It is important that you get used to *typing* Java for yourself. Also, you will notice things you would not otherwise if you are forced to type them.
-- At the top of every exercise, write a *document comment*. A document comment is description of the program for another user (or your future self). Get used to documenting your work! Here is an example document comment for the previous exercise:
+- At the end of every exercise, write a *comment*. A document comment is description of the program for another user (or your future self). Get used to documenting your work! Here is an example document comment for the previous exercise:
 
 ```java
     /**
@@ -132,8 +132,8 @@ static void returnNothing() {
 #### Exercise 01: [Forgetful Machine](http://programmingbydoing.com/a/the-forgetful-machine.html)
 For this exercise, we will ask the user for two words and two numbers, and let the person at the keyboard type in some values, but we will not be storing their responses into any variables. Follow the link above for more information.
 
-#### Exercise 02: [What If?](http://programmingbydoing.com/a/what-if.html)
-For this exercise, we will refactor (modify) the code in the link above to print the correct results. Follow the link above for more information.
+#### Exercise 02: [loneSum Problem](https://codingbat.com/prob/p148972)
+Follow the link above for more information.
 
 ## Switch Statement Problems
 
