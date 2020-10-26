@@ -70,13 +70,6 @@ Functions in Java are called **Methods**.
 
 [This page](http://docs.oracle.com/javase/7/docs/api/java/util/Scanner.html) has a full list of `Scanner` functions.
 
-Let's go through the first exercise together.
-
-#### Mid-Lecture Exercise: [Asking Questions](http://programmingbydoing.com/a/asking-questions.html)
-For this exercise, we will ask the user a number of questions back-to-back, store their answers in variables, and print their answers back to them. Follow the link above for more information.
-
-Now try to use the `Scanner` yourself!
-
 ## Methods
 
 Let's review **Methods** in Java - how they are declared, how they accept arguments into their parameters (if any), and the return types of the values they return.
@@ -123,8 +116,8 @@ static void returnNothing() {
 
 ```java
     /**
-     * Access Code 4.3
-     * Jamie Ramirez-Khan
+     * Target_Cohort_W2020
+     * Bobby Bah
      * AskingQuestions.java
      * This class prompts the user for some personal data and then repeats it back to them.
      */
