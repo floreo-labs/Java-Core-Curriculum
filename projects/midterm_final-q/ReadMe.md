@@ -1,6 +1,6 @@
 
 
-## Q13. The final portion of the midterm is to complete a Rock, Paper, Scissors command-line game in Java. Please closely follow the following directions and push your code to the appropriate branch when directed to. 
+## Q15. The final portion of the midterm is to complete a Rock, Paper, Scissors command-line game in Java. Please closely follow the following directions and push your code to the appropriate branch when directed to. 
 
 1.  <b>a.</b> Create a new Java project with IntelliJ
     <br /><b>b.</b> Name it RPS_game
