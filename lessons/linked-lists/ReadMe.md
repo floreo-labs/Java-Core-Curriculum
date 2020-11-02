@@ -232,6 +232,8 @@ Queue interface:
 - `boolean isEmpty()` - return `true` if no items, otherwise `false`.
 - `E front()` - return item at the front of the queue without removing it, O(1).
 
+# Exercises
+
 
 ### Exercises 1:
 
