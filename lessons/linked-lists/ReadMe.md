@@ -51,7 +51,189 @@ To traverse a singly-linked list, we begin at the first node and follow each nex
      current node = next node
 ```
 
-### Exercises:
+## Types of linked lists
+
+### Singly-linked lists
+
+In a singly-linked list every node contains some data and a link to the next node, which allows to keep the structure.
+
+![singly linked](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/816px-Singly-linked-list.svg.png)
+
+### Doubly-linked lists
+
+In a doubly linked list, each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence.
+
+![doubly linked](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/1220px-Doubly-linked-list.svg.png)
+
+### Circular linked lists
+
+A **circular linked list** is a variation of linked list in which the first element points to the last element and the last element points to the first element. Both singly -linked lists and doubly-linked lists can be circular.
+
+![circular linked](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/700px-Circularly-linked-list.svg.png)
+
+- In a singly-linked list, the `next` pointer of the last node points to the head node.
+- In a doubly-linked list, the `next` pointer of the last node points to the head node and the previous pointer of the head node points to the last node.
+
+## Traversal
+
+Interestingly enough, Linked Lists can be utilized to create data structures which we may already be familiar with like Stacks, an Queues. 
+
+### Stacks
+
+A **stack** is a last in, first out (LIFO) data structure that can be visualized like a stack of papers or pancakes. What you put on top (push) is the first item you take off (pop).
+
+Stack interface:
+- `void push(E item)` - inserts `item` at the top of the stack, O(1).
+- `E pop()` - remove item at the top of the stack, O(1).
+- `int size()` - return the number of items.
+- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
+- `E top()` - return item at the top of the stack without removing it, O(1).
+
+The implementation to create a Stack Interface via a Linked List data structure like this:
+
+```java
+// Java program to Implement a stack 
+// using singly linked list 
+// import package 
+import static java.lang.System.exit; 
+  
+// Create Stack Using Linked list 
+class StackUsingLinkedlist { 
+  
+    // A linked list node 
+    private class Node { 
+  
+        int data; // integer data 
+        Node link; // reference variable Node type 
+    } 
+    // create global top reference variable global 
+    Node top; 
+    // Constructor 
+    StackUsingLinkedlist() 
+    { 
+        this.top = null; 
+    } 
+  
+    // Utility function to add an element x in the stack 
+    public void push(int x) // insert at the beginning 
+    { 
+        // create new node temp and allocate memory 
+        Node temp = new Node(); 
+  
+        // check if stack (heap) is full. Then inserting an 
+        //  element would lead to stack overflow 
+        if (temp == null) { 
+            System.out.print("\nHeap Overflow"); 
+            return; 
+        } 
+  
+        // initialize data into temp data field 
+        temp.data = x; 
+  
+        // put top reference into temp link 
+        temp.link = top; 
+  
+        // update top reference 
+        top = temp; 
+    } 
+  
+    // Utility function to check if the stack is empty or not 
+    public boolean isEmpty() 
+    { 
+        return top == null; 
+    } 
+  
+    // Utility function to return top element in a stack 
+    public int peek() 
+    { 
+        // check for empty stack 
+        if (!isEmpty()) { 
+            return top.data; 
+        } 
+        else { 
+            System.out.println("Stack is empty"); 
+            return -1; 
+        } 
+    } 
+  
+    // Utility function to pop top element from the stack 
+    public void pop() // remove at the beginning 
+    { 
+        // check for stack underflow 
+        if (top == null) { 
+            System.out.print("\nStack Underflow"); 
+            return; 
+        } 
+  
+        // update the top pointer to point to the next node 
+        top = (top).link; 
+    } 
+  
+    public void display() 
+    { 
+        // check for stack underflow 
+        if (top == null) { 
+            System.out.printf("\nStack Underflow"); 
+            exit(1); 
+        } 
+        else { 
+            Node temp = top; 
+            while (temp != null) { 
+  
+                // print node data 
+                System.out.printf("%d->", temp.data); 
+  
+                // assign temp link to temp 
+                temp = temp.link; 
+            } 
+        } 
+    } 
+} 
+// main class 
+public class GFG { 
+    public static void main(String[] args) 
+    { 
+        // create Object of Implementing class 
+        StackUsingLinkedlist obj = new StackUsingLinkedlist(); 
+        // insert Stack value 
+        obj.push(11); 
+        obj.push(22); 
+        obj.push(33); 
+        obj.push(44); 
+  
+        // print Stack elements 
+        obj.display(); 
+  
+        // print Top element of Stack 
+        System.out.printf("\nTop element is %d\n", obj.peek()); 
+  
+        // Delete top element of Stack 
+        obj.pop(); 
+        obj.pop(); 
+  
+        // print Stack elements 
+        obj.display(); 
+  
+        // print Top element of Stack 
+        System.out.printf("\nTop element is %d\n", obj.peek()); 
+    } 
+} 
+
+```
+ 
+### Queues
+
+A **queue** is a first in, first out (FIFO) data structure that can be visualized as a waiting line. You add to the back of the line (enqueue), the front of the line is the first item you take off (dequeue).
+
+Queue interface:
+- `void enqueue(E item)` - inserts `item` at the rear of the queue, O(1).
+- `E dequeue()` - remove item from front of queue, O(1).
+- `int size()` - return the number of items.
+- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
+- `E front()` - return item at the front of the queue without removing it, O(1).
+
+
+### Exercises 1:
 
 1. Write a method `listLength(Node list)` that receives the head of a singly linked list and returns the number of nodes in the linked list. What is the worst-case runtime complexity of your algorithm?
 
@@ -80,30 +262,9 @@ searchLinkedList(list, "Apple"); // returns true
 searchLinkedList(list, "Pear"); // returns false
 ```
 
-## Types of linked lists
 
-### Singly-linked lists
 
-In a singly-linked list every node contains some data and a link to the next node, which allows to keep the structure.
-
-![singly linked](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/816px-Singly-linked-list.svg.png)
-
-### Doubly-linked lists
-
-In a doubly linked list, each node contains, besides the next-node link, a second link field pointing to the 'previous' node in the sequence.
-
-![doubly linked](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/1220px-Doubly-linked-list.svg.png)
-
-### Circular linked lists
-
-A **circular linked list** is a variation of linked list in which the first element points to the last element and the last element points to the first element. Both singly -linked lists and doubly-linked lists can be circular.
-
-![circular linked](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/700px-Circularly-linked-list.svg.png)
-
-- In a singly-linked list, the `next` pointer of the last node points to the head node.
-- In a doubly-linked list, the `next` pointer of the last node points to the head node and the previous pointer of the head node points to the last node.
-
-### Exercises
+### Exercises 2
 
 1. Write a method `insertAfter(Node node, Node newNode)` that inserts `newNode` directly after the existing `node` in a singly-linked list.
 
@@ -111,29 +272,7 @@ A **circular linked list** is a variation of linked list in which the first elem
 
 3. Can you traverse a singly-linked list backwards? What about a circular singly-linked list?
 
-## Stacks
-
-A **stack** is a last in, first out (LIFO) data structure that can be visualized like a stack of papers or pancakes. What you put on top (push) is the first item you take off (pop).
-
-Stack interface:
-- `void push(E item)` - inserts `item` at the top of the stack, O(1).
-- `E pop()` - remove item at the top of the stack, O(1).
-- `int size()` - return the number of items.
-- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
-- `E top()` - return item at the top of the stack without removing it, O(1).
- 
-## Queues
-
-A **queue** is a first in, first out (FIFO) data structure that can be visualized as a waiting line. You add to the back of the line (enqueue), the front of the line is the first item you take off (dequeue).
-
-Queue interface:
-- `void enqueue(E item)` - inserts `item` at the rear of the queue, O(1).
-- `E dequeue()` - remove item from front of queue, O(1).
-- `int size()` - return the number of items.
-- `boolean isEmpty()` - return `true` if no items, otherwise `false`.
-- `E front()` - return item at the front of the queue without removing it, O(1).
-
-### Exercises
+### Exercises 3
 
 1.  Write a `moveToTop` function that takes in a queue and a value, and moves that value to the top of the queue.
 
