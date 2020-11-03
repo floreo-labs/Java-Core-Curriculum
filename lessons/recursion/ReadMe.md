@@ -43,11 +43,11 @@ The recursive approach seems to be the more simpler and straightforward one righ
 
 A recursive function is a function that calls itself.
 
-```javascript
-const sayHi = () => {
-  console.log("Hi");
-  sayHi();
-}
+```java
+public static void greeting() {
+	System.out.println("Hiya!");
+	greeting();
+	}
 ```
 
 sayHi() is a recursive function. It will priint "hi", then call itself, which will print "hi" and then call itself *AGAIN*, which will print "hi" and call itself...indefinitely. 
@@ -68,11 +68,12 @@ The function should NOT call itself within the base case. In other words, the ba
 
 Here's another example of a recursive function without a base case:
 
-```javascript
-const countDownToZero = (num) => {
-  console.log(num);
-  countDownToZero(num - 1);
-}
+```java
+public static void countDown(int num) {
+		 System.out.println(num);
+		 countDown(num - 1);
+	 }
+ }
 ```
 
 <details>
@@ -82,14 +83,17 @@ const countDownToZero = (num) => {
 
 Let's add that base case:
 
-```javascript
-const countDownToZero(num) {
-  if (num === 0) {
-    return;
-  }
-  console.log(num);
-  countDownToZero(num - 1);
-}
+```java
+public static void countDown(int num) {
+	 
+	 if(num == 0) {
+	 System.out.println(num);
+	 }
+	 else {
+		 System.out.println(num);
+		 countDown(num - 1);
+	 }
+ }
 ```
 Make sure your recursive functions always have a base case!
 
@@ -103,16 +107,19 @@ If the input is less than zero.
 </details>
 
 <details>
-<summary>How can we resole this issue</summary>
+<summary>How can we resolve this issue</summary>
 
-```javascript
-const countDownToZero = (num) => {
-  if (num <= 0) {
-    return;
-  }
-  console.log(num);
-  countDownToZero(num - 1);
-}
+```java
+static void countDown(int num) {
+	 
+	 if(num <= 0) {
+	 System.out.println(num);
+	 }
+	 else {
+		 System.out.println(num);
+		 countDown(num - 1);
+	 }
+ }
 ```
 </details>
 
@@ -120,12 +127,11 @@ const countDownToZero = (num) => {
 
 Given this following loop: 
 
-```javascript
-const countUp = (starting, to) => {
-  for (let i = starting; i <= to; i++) {
-    console.log(i);
-  }
-}
+```java
+for(int index = 0; index < array.length; index++) {
+		 System.out.println(array[index]);
+		 
+	 }
 ```
 
 How would you write this same thing recursively?
@@ -133,14 +139,13 @@ How would you write this same thing recursively?
 <details>
 <summary>SOLUTION</summary>
 
-```javascript
-const countUp = (starting, to) => {
-  if (to < starting) {
-    return;
-  }
-  console.log(starting);
-  countUp(starting + 1, to);
-}
+```java
+ public static void arrayRecursive(int[] array, int index) {
+		         if (index != -1) {
+		            arrayRecursive(array,index - 1);
+		             System.out.println(data[index]);
+		         }
+		     }
 ```
 </details>
 
@@ -169,43 +174,33 @@ The pattern is like what's shown below:
 Example: 5! = 5 * 4 * 3 * 2 * 1 = 120
 ```
 
-Let's made an iterative solution first, then let's compare it to a recursive solution:
+Let's make an iterative solution first.
 
 <details>
 <summary>Iterative Factorial</summary>
 
-```javascript
-const factorialize = (num) => {
-  let result = num;
-  if (num === 0 || num === 1) 
-    return 1; 
-  while (num > 1) { 
-    num--;
-    result *= num;
-  }
-  return result;
-}
+```java
+ public static int factorial(int num) 
+    { 
+        int result = 1;
+        int i; 
+        
+        for (i = 2; i <= num; i++) { 
+            result *= i; 
+        }
+            return result; 
+    } 
 ```
 </details>
 
 This actually requires some thought. We need to run a while loop as long as the solution isn't finished. 
 
-Now what if we wanted to do this recursively?
+Now what if we wanted to do this recursively? Try it yourself!
 
 <details>
 <summary>Recursive Factorial</summary>
+https://codingbat.com/prob/p154669
 
-```javascript
-const factorialize = (num) => {
-  if (num < 0) 
-    return -1;
-  else if (num == 0) 
-    return 1;
-  else {
-    return (num * factorialize(num - 1));
-  }
-}
-```
 </details>
 
 ### Famous Recursive Problem #2: Fibonacci
@@ -225,30 +220,32 @@ Let's made an iterative solution first, then let's compare it to a recursive sol
 <details>
 <summary>Iterative Fibonacci</summary>
 
-```javascript
-const fib = (n) => {
-  let arr = [0, 1];
-  for (let i = 2; i < n + 1; i++){
-    arr.push(arr[i - 2] + arr[i -1]);
-  }
-  return arr[n]
+```java
+public class Fibonacci {
+
+    public static void main(String[] args) {
+
+        int n = 10, t1 = 0, t2 = 1;
+        System.out.print("First " + n + " terms: ");
+
+        for (int i = 1; i <= n; ++i)
+        {
+            System.out.print(t1 + " + ");
+
+            int sum = t1 + t2;
+            t1 = t2;
+            t2 = sum;
+        }
+    }
 }
 ```
 </details>
 
-Pretty cool right? How about if we wanted to solve this recursively?
+Pretty cool right? How about if we wanted to solve this recursively? Try the Coding Bat!
 
 <details>
 <summary>Recursive Fibonacci</summary>
-
-```javascript
-const fib = (n) => {
-  if (n < 2) {
-    return n;
-  }
-  return fib(n - 1) + fib(n - 2);
-}
-```
+https://codingbat.com/prob/p120015
 </details>
 
 ![recursive fib](./assets/fib_rec.png)
