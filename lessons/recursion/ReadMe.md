@@ -44,9 +44,9 @@ The recursive approach seems to be the more simpler and straightforward one righ
 A recursive function is a function that calls itself.
 
 ```java
-public static void greeting() {
+public static void sayHi() {
 	System.out.println("Hiya!");
-	greeting();
+	sayHi();
 	}
 ```
 
@@ -130,7 +130,6 @@ Given this following loop:
 ```java
 for(int index = 0; index < array.length; index++) {
 		 System.out.println(array[index]);
-		 
 	 }
 ```
 
@@ -143,7 +142,7 @@ How would you write this same thing recursively?
  public static void arrayRecursive(int[] array, int index) {
 		         if (index != -1) {
 		            arrayRecursive(array,index - 1);
-		             System.out.println(data[index]);
+		             System.out.println(array[index]);
 		         }
 		     }
 ```
