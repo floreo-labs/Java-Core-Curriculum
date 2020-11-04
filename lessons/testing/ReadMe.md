@@ -5,6 +5,7 @@
 - Write a JUnit Test
 
 # Resources
+- [Setup JUnit Tests in IntelliJ](https://www.youtube.com/watch?v=Zug8zYR0SmA&ab_channel=Cayne)
 - [Setup JUnit in IntelliJ](https://www.jetbrains.com/help/idea/2016.2/testing.html)
 - [Unit Testing and Coverage in IntelliJ IDEA](https://www.youtube.com/watch?v=QDFI19lj4OM)
 - [Example TDD Article](https://technologyconversations.com/2013/12/20/test-driven-development-tdd-example-walkthrough/)
