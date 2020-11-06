@@ -1,9 +1,9 @@
 # Clean Code and Software Architecture in Java
 
 ## Resources
-- [Georgia Tech Intro to Software Architecture](https://www.youtube.com/watch?v=6bX2EPI-BqE)
-- [Georgia Tech: Types of Architectural Styles](https://www.youtube.com/watch?v=JLbo9Lvvy5M)
-- [What is MVC](https://www.youtube.com/watch?v=pCvZtjoRq1I)
+- [Video: Georgia Tech Intro to Software Architecture](https://www.youtube.com/watch?v=6bX2EPI-BqE)
+- [Video: Georgia Tech: Types of Architectural Styles](https://www.youtube.com/watch?v=JLbo9Lvvy5M)
+- [Video: What is MVC](https://www.youtube.com/watch?v=pCvZtjoRq1I)
 
 ## 3 Rs of Software Architecture
 
