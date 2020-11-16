@@ -1,6 +1,6 @@
 # Building with Spring Boot
 
-***For the following exercise, complete the exercise and please send me the repo link***
+***For the following exercise, complete the exercise and please send me (Boubacar) the repo link***
 
 ## Resources 
 
