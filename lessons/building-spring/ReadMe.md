@@ -1,4 +1,4 @@
-# Building with Spring Boot
+# Consuming Rest Services with Spring Boot
 
 ***For the following exercise, complete the exercise and please send me (Boubacar) the repo link***
 
