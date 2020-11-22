@@ -7,6 +7,7 @@ Engineers will:
 - Learn how to leverage lambdas for their own use case
 
 ## Resources 
+- [Introduction to Lambda Classes](https://www.youtube.com/watch?v=nUIAvs4OEkM&ab_channel=JavaBrains)
 
 ## Lecture
 
