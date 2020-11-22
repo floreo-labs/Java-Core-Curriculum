@@ -1,6 +1,19 @@
+# Lambdas and Anonymous Classes in Java
+
+## Objectives
+Engineers will: 
+- Gain a deeper understanding of what Anonymous Classeses are and their use case
+- See examples of how lambdas simplify Java Code
+- Learn how to leverage lambdas for their own use case
+
+## Resources 
+
+## Lecture
+
 ## Anonymous inner classes - "the basics element of understanding lambda expressions"
 
-In Java, anonymous inner classes provide a way to implement classes that may occur only once in an application. For example, in a standard Swing or JavaFX application a number of event handlers are required for keyboard and mouse events. Rather than writing a separate event-handling class for each event, you can write something like this:
+In Java, anonymous inner classes provide a way to implement classes that may occur only once in an application. For example, in a standard JavaFX application a number of event handlers are required for keyboard and mouse events. Rather than writing a separate event-handling class for each event, you can write something like this:
+
 ```java
 JButton testButton = new JButton("Test Button");
 testButton.addActionListener(new ActionListener(){
@@ -9,9 +22,11 @@ testButton.addActionListener(new ActionListener(){
  }
 }
 ```
+
 Otherwise, a separate class that implements _**ActionListener**_ is required for each event. By creating the class in place where it is needed, the code is a little easier to read. This is also used with the _**GLFWKeyCallback**_ class - instead of creating a separate _**Input**_ class to provide the functionality of _**GLFWKeyCallback**_, you "create an inner class" with the use of lambda expressions.
 
 The interface of _**ActionListener**_ looks something like:
+
 ```java
 package java.awt.event;
 import java.util.EventListener;
@@ -20,6 +35,7 @@ import java.util.EventListener;
         public void actionPerformed(ActionEvent e);
     }
 ```
+
 The _**ActionListener**_ example is an interface with only one method. With Java SE 8, an interface that follows this pattern is known as a **functional interface**.
 
 **Note**: This type of interface, was previously known as a **Single Abstract Method type (SAM)**.
@@ -29,7 +45,7 @@ Using functional interfaces with anonymous inner classes are a common pattern in
 **Therefore, functional interfaces are leveraged for use with lambda expressions.**
 
 ## Lambda expressions
-Lambda expressions are an important feature to Java 8. They provide a clear and concise way to represent an interface using an expression. 
+Lambda expressions are an important feature added in Java 8. They provide a clear and concise way to represent an interface using an expression. 
 
 Lambda expressions address the bulkiness of anonymous inner classes by converting five lines of code into a single statement. They consist of the following parts:
 
@@ -71,7 +87,7 @@ Runnable task2 = () -> { System.out.println("Task #2 is running"); };
 new Thread(task2).start();
 ```
 
-**Lambda**
+## Breaking down Lambdas vs Methods 
 1.A lambda expression is an anonymous function.
 2.A function that doesn't have a name and doesn't belong to any class
 
