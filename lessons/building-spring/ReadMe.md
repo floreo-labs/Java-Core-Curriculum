@@ -1,10 +1,10 @@
-# Building with Spring 
+# Consuming Rest Services with Spring Boot
 
-***For the following exercise, complete the exercise and please send me the repo link***
+***For the following exercise, complete the exercise and please send me (Boubacar) the repo link***
 
 ## Resources 
 
-- [Consuming a REST Service with Spring](https://spring.io/guides/gs/consuming-rest/)
+- [Consuming a REST Service with Spring Boot](https://spring.io/guides/gs/consuming-rest/)
 - [The NYT Top Stories API](https://api.nytimes.com/svc/topstories/v2/home.json?api-key=5Juyps8ID6qTGAC1bcsuk00GB6RfOzer)
 
 Consider the following image of the New York Times Top Stories JSON of the results from the home section:
